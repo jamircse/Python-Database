@@ -1,0 +1,9 @@
+import pymysql
+# Open database connection
+db = pymysql.connect("sql12.freemysqlhosting.net","sql12345764","sql12345764","Ui4yvwsAy3");
+#db = pymysql.connect("localhost","root","","database");
+
+if(db):
+    print("Opened database successfully");
+else:
+    print("database not Opened  ");
